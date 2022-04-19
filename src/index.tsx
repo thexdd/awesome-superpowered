@@ -9,14 +9,26 @@ const LINKING_ERROR =
 const AwesomeSuperpowered = NativeModules.AwesomeSuperpowered
   ? NativeModules.AwesomeSuperpowered
   : new Proxy(
-      {},
-      {
-        get() {
-          throw new Error(LINKING_ERROR);
-        },
-      }
-    );
+    {},
+    {
+      get() {
+        throw new Error(LINKING_ERROR);
+      },
+    }
+  );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return AwesomeSuperpowered.multiply(a, b);
+class Superpowered {
+  constructor(recordingPath: string) {
+    // this.construct(recordingPath)
+  }
+
+  construct(recordingPath: string): void {
+    // AwesomeSuperpowered.construct('JOPA SUKA BLJAD')
+  }
+
+  multiply(a: number, b: number): Promise<number> {
+    return AwesomeSuperpowered.add(a, b)
+  }
 }
+
+export default Superpowered
