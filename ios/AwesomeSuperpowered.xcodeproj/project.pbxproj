@@ -34,6 +34,7 @@
 		5E0EB459280FEB0800FC5BA8 /* AwesomeSuperpowered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeSuperpowered.h; sourceTree = "<group>"; };
 		5E0EB45A280FEF6B00FC5BA8 /* Superpowered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Superpowered.h; path = ../Superpowered/Superpowered.h; sourceTree = "<group>"; };
 		5E0EB45B280FEF6B00FC5BA8 /* SuperpoweredRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperpoweredRecorder.h; path = ../Superpowered/SuperpoweredRecorder.h; sourceTree = "<group>"; };
+		5E515024280FF80F00D841A9 /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSuperpoweredAudioIOS.a; path = ../Superpowered/libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* AwesomeSuperpowered.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeSuperpowered.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* AwesomeSuperpowered-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwesomeSuperpowered-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* AwesomeSuperpowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeSuperpowered.swift; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				5E0EB456280FE4A600FC5BA8 /* Source */,
 				5E0EB455280FE49A00FC5BA8 /* Superpowered */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				5E515024280FF80F00D841A9 /* libSuperpoweredAudioIOS.a */,
 			);
 			sourceTree = "<group>";
 		};
