@@ -5,8 +5,8 @@ class Superpowered {
     this.construct(recordingPath)
   }
 
-  construct(recordingPath: string): Promise<void> {
-    return NativeModules.AwesomeSuperpowered.construct(recordingPath)
+  construct(recordingPath: string): void {
+    NativeModules.AwesomeSuperpowered.construct(recordingPath)
   }
 }
 
