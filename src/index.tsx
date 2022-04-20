@@ -22,8 +22,8 @@ class Superpowered {
     // this.construct(recordingPath)
   }
 
-  construct(recordingPath: string): void {
-    // AwesomeSuperpowered.construct('JOPA SUKA BLJAD')
+  construct(recordingPath: string): Promise<void> {
+    return AwesomeSuperpowered.construct('JOPA SUKA BLJAD')
   }
 
   multiply(a: number, b: number): Promise<number> {

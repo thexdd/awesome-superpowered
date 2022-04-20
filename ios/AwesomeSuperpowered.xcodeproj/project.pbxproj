@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* AwesomeSuperpowered.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AwesomeSuperpowered.m */; };
-		F4FF95D7245B92E800C19C63 /*  AwesomeSuperpowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  AwesomeSuperpowered.swift */; };
-
+		F4FF95D7245B92E800C19C63 /* AwesomeSuperpowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* AwesomeSuperpowered.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +24,19 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libAwesomeSuperpowered.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAwesomeSuperpowered.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
+		5E0EB44E280FE47000FC5BA8 /* AudioRecorder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioRecorder.mm; sourceTree = "<group>"; };
+		5E0EB44F280FE47000FC5BA8 /* AudioManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioManagerDelegate.h; sourceTree = "<group>"; };
+		5E0EB450280FE47000FC5BA8 /* AudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		5E0EB451280FE47000FC5BA8 /* AudioManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioManager.mm; sourceTree = "<group>"; };
+		5E0EB452280FE47000FC5BA8 /* AudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		5E0EB453280FE49500FC5BA8 /* SuperpoweredIOSAudioIO.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SuperpoweredIOSAudioIO.mm; path = ../Superpowered/OpenSource/SuperpoweredIOSAudioIO.mm; sourceTree = "<group>"; };
+		5E0EB454280FE49500FC5BA8 /* SuperpoweredIOSAudioIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SuperpoweredIOSAudioIO.h; path = ../Superpowered/OpenSource/SuperpoweredIOSAudioIO.h; sourceTree = "<group>"; };
+		5E0EB459280FEB0800FC5BA8 /* AwesomeSuperpowered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeSuperpowered.h; sourceTree = "<group>"; };
+		5E0EB45A280FEF6B00FC5BA8 /* Superpowered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Superpowered.h; path = ../Superpowered/Superpowered.h; sourceTree = "<group>"; };
+		5E0EB45B280FEF6B00FC5BA8 /* SuperpoweredRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperpoweredRecorder.h; path = ../Superpowered/SuperpoweredRecorder.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* AwesomeSuperpowered.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeSuperpowered.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* AwesomeSuperpowered-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwesomeSuperpowered-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* AwesomeSuperpowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeSuperpowered.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +61,37 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
+				5E0EB459280FEB0800FC5BA8 /* AwesomeSuperpowered.h */,
 				F4FF95D6245B92E800C19C63 /* AwesomeSuperpowered.swift */,
 				B3E7B5891CC2AC0600A0062D /* AwesomeSuperpowered.m */,
 				F4FF95D5245B92E700C19C63 /* AwesomeSuperpowered-Bridging-Header.h */,
-
+				5E0EB456280FE4A600FC5BA8 /* Source */,
+				5E0EB455280FE49A00FC5BA8 /* Superpowered */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		5E0EB455280FE49A00FC5BA8 /* Superpowered */ = {
+			isa = PBXGroup;
+			children = (
+				5E0EB45A280FEF6B00FC5BA8 /* Superpowered.h */,
+				5E0EB45B280FEF6B00FC5BA8 /* SuperpoweredRecorder.h */,
+				5E0EB454280FE49500FC5BA8 /* SuperpoweredIOSAudioIO.h */,
+				5E0EB453280FE49500FC5BA8 /* SuperpoweredIOSAudioIO.mm */,
+			);
+			name = Superpowered;
+			sourceTree = "<group>";
+		};
+		5E0EB456280FE4A600FC5BA8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5E0EB452280FE47000FC5BA8 /* AudioManager.h */,
+				5E0EB451280FE47000FC5BA8 /* AudioManager.mm */,
+				5E0EB44F280FE47000FC5BA8 /* AudioManagerDelegate.h */,
+				5E0EB450280FE47000FC5BA8 /* AudioRecorder.h */,
+				5E0EB44E280FE47000FC5BA8 /* AudioRecorder.mm */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,10 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				F4FF95D7245B92E800C19C63 /* AwesomeSuperpowered.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* AwesomeSuperpowered.m in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,11 +264,10 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AwesomeSuperpowered;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "AwesomeSuperpowered-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Superpowered/**";
 			};
 			name = Debug;
 		};
@@ -259,10 +284,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AwesomeSuperpowered;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "AwesomeSuperpowered-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Superpowered/**";
 			};
 			name = Release;
 		};

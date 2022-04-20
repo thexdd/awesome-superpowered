@@ -5,7 +5,7 @@ class AwesomeSuperpowered: NSObject {
           return false
       }
     
-    @objc func construct(recordingPath: String) -> Void {
+    @objc func construct(_ recordingPath: String) -> Void {
         print(recordingPath)
     }
 

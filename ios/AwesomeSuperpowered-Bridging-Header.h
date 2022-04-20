@@ -1,2 +1,3 @@
 #import <React/RCTBridgeModule.h>
-#import <React/RCTViewManager.h>
+#import "AudioManager.h"
+#import "AudioRecorder.h"
