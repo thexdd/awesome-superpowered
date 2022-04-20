@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5E51502A280FFA1C00D841A9 /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E515024280FF80F00D841A9 /* libSuperpoweredAudioIOS.a */; };
+		5E51502E280FFBDD00D841A9 /* AwesomeSuperpowered.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EB459280FEB0800FC5BA8 /* AwesomeSuperpowered.h */; };
+		5E51502F280FFBDD00D841A9 /* AwesomeSuperpowered.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AwesomeSuperpowered.m */; };
+		5E515030280FFBDD00D841A9 /* AwesomeSuperpowered-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D5245B92E700C19C63 /* AwesomeSuperpowered-Bridging-Header.h */; };
+		5E515031280FFBDD00D841A9 /* AudioManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EB452280FE47000FC5BA8 /* AudioManager.h */; };
+		5E515032280FFBDD00D841A9 /* AudioManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EB451280FE47000FC5BA8 /* AudioManager.mm */; };
+		5E515033280FFBDD00D841A9 /* AudioManagerDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EB44F280FE47000FC5BA8 /* AudioManagerDelegate.h */; };
+		5E515034280FFBDD00D841A9 /* AudioRecorder.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EB450280FE47000FC5BA8 /* AudioRecorder.h */; };
+		5E515035280FFBDD00D841A9 /* AudioRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EB44E280FE47000FC5BA8 /* AudioRecorder.mm */; };
+		5E515036280FFBDD00D841A9 /* libSuperpoweredAudioIOS.a in Sources */ = {isa = PBXBuildFile; fileRef = 5E515024280FF80F00D841A9 /* libSuperpoweredAudioIOS.a */; };
 		F4FF95D7245B92E800C19C63 /* AwesomeSuperpowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* AwesomeSuperpowered.swift */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E51502E280FFBDD00D841A9 /* AwesomeSuperpowered.h in Sources */,
+				5E51502F280FFBDD00D841A9 /* AwesomeSuperpowered.m in Sources */,
+				5E515030280FFBDD00D841A9 /* AwesomeSuperpowered-Bridging-Header.h in Sources */,
+				5E515031280FFBDD00D841A9 /* AudioManager.h in Sources */,
+				5E515032280FFBDD00D841A9 /* AudioManager.mm in Sources */,
+				5E515033280FFBDD00D841A9 /* AudioManagerDelegate.h in Sources */,
+				5E515034280FFBDD00D841A9 /* AudioRecorder.h in Sources */,
+				5E515035280FFBDD00D841A9 /* AudioRecorder.mm in Sources */,
+				5E515036280FFBDD00D841A9 /* libSuperpoweredAudioIOS.a in Sources */,
 				F4FF95D7245B92E800C19C63 /* AwesomeSuperpowered.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
