@@ -19,15 +19,11 @@ const AwesomeSuperpowered = NativeModules.AwesomeSuperpowered
 
 class Superpowered {
   constructor(recordingPath: string) {
-    // this.construct(recordingPath)
+    this.construct(recordingPath)
   }
 
   construct(recordingPath: string): Promise<void> {
-    return AwesomeSuperpowered.construct('JOPA SUKA BLJAD')
-  }
-
-  multiply(a: number, b: number): Promise<number> {
-    return AwesomeSuperpowered.add(a, b)
+    return AwesomeSuperpowered.construct(recordingPath)
   }
 }
 
